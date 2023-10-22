@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Input Text for list</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Nabla&family=Phudu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleinput.css">
+</head>
+
+<body>
+    <abc>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="https://inext.co.th/wp-content/themes/inext2021/assets/images/logo.png" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </div>
+    </abc>
+    <header>       
+        <h1>Find the Equipment</h1>
+        <form>
+            <label for="userInput">Enter Text :</label>
+            <textarea id="userInput" placeholder="Input your requirment"></textarea><br>
+            <button type="button" onclick="detectConditionWords()">Find the requirment</button>
+            <button type="button" onclick="detectEquipmentWords()">Find the Equipment</button>
+        </form>
+        <h2>The Requirement:</h2>
+        <ul id="conditionWordsOutput"></ul> 
+        <h2>The Equipment:</h2>
+        <ul id="EquipmentOutput"></ul><br>
+        <h3>*** Ps. This program is a part of the tool that can quickly check. But you should double check your documents. ***</h3>
+
+    </header>
+    <script src="script_input.js"></script>
+    <footer>
+        <div class="footer-text">
+        <h1>@INEXT BROADBAND COMPANY LIMITED</h1>
+        </div>
+    </footer>
+</body>
+</html>

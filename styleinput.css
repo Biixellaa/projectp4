@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+wrapper{
+    width: 1170;
+    margin:auto;}
+abc{
+    padding: 30px;
+    clear: left;
+    width: 10px;}
+header{
+    /*background: linear-gradient(rgba(0,0,0,0.2), rgba(184, 183, 183, 0.3)),url("อิม/pexels-miguel-á-padriñán-255379.jpg");*/
+    background-color: antiquewhite;
+    height: auto;
+    margin-top: 50px ;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    position: relative; }
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 40px;}
+.nav-area li {
+    display: inline-block}
+.nav-area li a{
+    color: #a96666;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+    font-size: 16px ;
+    border-radius: 4%;
+    transition: background-color 0.3s, color 0.3s;}
+.nav-area li a:hover{
+    background: #a44d4d;
+    color: #333;}
+.logo img{
+    display: block;
+    width: 100px;
+    float: left;
+    height: auto;
+    margin: 0px 50px;}
+
+header h1{
+    font-size: 60px; color: #65451F;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+    padding-top: 20px;
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation: fadeIn 2s ease-in;
+    animation: fadeIn  1.2s  ease-in;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
+}
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+header label{
+    font-size: 25px;
+    padding-left: 34px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+}
+header textarea{
+    margin: 10px 30px;
+}
+header button{
+    margin: 10px 10px 20px 30px;
+    
+}
+header h2{
+    font-size: 25px;
+    margin-top:10px;
+    margin-left: 40px;
+    color: #765827;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+}
+header h3{
+    color: rgb(175, 28, 28);
+    font-size: 16px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    text-align: center; 
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+    text-decoration: overline underline;
+}
+button{
+    width: auto; height:auto; 
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+    background: #F0B86E;
+    color: #8757a0;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    background: #ED7B7B;
+    color: #EBE76C;
+}
+
+/*JS*/
+#userInput{
+    width: 95%;
+    height: 450px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+#conditionWordsOutput{
+    padding: 10px 90px;
+    /*padding-left: 50px;
+    padding-top: 10px;*/
+    font-size: 18px;
+}
+#EquipmentOutput{
+    padding : 10px 90px;
+    font-size: 18px;
+}
+
+/*footer*/
+footer-text{
+    position: relative;
+
+}
+.footer-text h1{
+    text-align: center;
+    font-size: small;
+    color: #fff;
+    padding: 10px;
+    background-color:#141E46 ;
+    padding: 20px; }
+
+    

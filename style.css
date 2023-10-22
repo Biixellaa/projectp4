@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0; }
+wrapper{
+    width: 1170;
+    margin:auto; }
+abc{
+    padding: 30px;
+    clear: left;
+    width: 10px; }
+header{
+    background-color: #FFF5E0;
+    /*background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url("อิม/4514941-hexagon-white-yellow-red-purple-abstract.jpg");*/
+    height: 100vh;margin-top: 50px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative; }
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 40px; }
+.nav-area li{
+    display: inline-block }
+.nav-area li a{
+    color: #EF6262;
+    border: 2px; border-color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Nabla', cursive;
+    font-family: 'Phudu', cursive;
+    font-size: 16px ;
+    border-radius: 3%;
+    transition: background-color 0.4s, color 0.4s; }
+.nav-area li a:hover{
+    background: #1D5B79;
+    color: #F3AA60; }
+.logo img{
+    display: block;
+    width: 100px;
+    float: left;
+    height: auto;
+    margin: 0px 50px; }
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height:300px;
+    margin: 15% 30%;
+    text-align: center;
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation: fadeIn 2s ease-in;
+    animation: fadeIn  1.25s  ease-in;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
+}
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+.welcome-text h1{
+    text-align: center;
+    color: #1D5B79;
+    text-transform: uppercase;
+    font-family: 'Prata', serif;
+    font-size: 80px;
+    margin-bottom: 50px; 
+}
+.welcome-text a{
+    border: 2px solid #468B97;
+    /*padding: 10px 25px;*/
+    width: 250px; height: 25px;
+    padding: 14px;
+    position: relative;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #EF6262;
+    transition: background-color 0.3s, color 0.3s;
+    transition: width 0.5s, height 0.5s,font-size 0.5s; }
+.welcome-text a:hover{
+    width: 280px; height: 33px;
+    font-size: 25px;
+    background: #1D5B79;
+    color: #F3AA60;
+}
+footer {
+    background-color:#141E46 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-text h1{
+    text-align: center;
+    font-size: small;
+    color: #fff;
+    padding: 10px;
+    background-color:#141E46 ;
+    padding: 20px; }
+

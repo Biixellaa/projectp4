@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylemain.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Nabla&family=Phudu:wght@500&display=swap" rel="stylesheet">
+    <title>Checkbox Data Display</title>
+</head>
+
+<body>
+    <abc>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="https://inext.co.th/wp-content/themes/inext2021/assets/images/logo.png" alt="">
+            </div>
+            <ul class="nav-area">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </div>
+    </abc>
+    <header>
+            <div class="checkbox-form"><br><br><br><br>
+                <h1 style="font-size: 50px;">Choose Your Equipment</h1>
+                <form id="checkbox-form">
+                    <label><input type="checkbox" name="option1" value="Data Center"> Data Center</label>
+                    <label><input type="checkbox" name="option2" value="Server"> Server</label>
+                    <label><input type="checkbox" name="option3" value="Office"> Office</label>
+                </form>
+            </div>
+            <br>
+            <button id="submit-button">Submit</button><br><br>
+            <div class="result">
+                    <div id="result">
+                        <!-- Data will be displayed here -->
+                    </div>
+                    <img src="" alt="Result Image" id="result-image" style="display: none;">
+                    <div id="download-link" style="display: none;">
+                        <a id="download-link-a" href="#" download>Download Image</a>
+                    </div>
+            </div>    
+            <br>
+            <script src="script_main.js"></script>
+    </header>
+</body>
+</html>
